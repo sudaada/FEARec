@@ -1,0 +1,1 @@
+python run_seq.py --dataset='Amazon_Beauty' --train_batch_size=256 lmd=0.1 --lmd_sem=0.1 --model='FEARec' --contrast='us_x' --sim='dot' --tau=1 --global_ratio=0.6 --dual_domain=True --spatial_ratio=0.1 --std=True
